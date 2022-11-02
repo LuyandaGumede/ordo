@@ -1,0 +1,175 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*top set up*/
+.Topfix{
+	position: fixed;
+	width: 100%;
+	background: #BABABA;
+	display: flex;
+	justify-content:space-between;
+	height: 70px;
+	
+}
+.Topfix img{
+	height: 60px;
+	margin-left: 10px;
+	left: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+.Topfix a{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.Topfix #input{
+	height: 25px;
+	width: 260px;
+	text-indent: 20px;
+	border-radius: 325px;
+	border-style: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 30px;
+}
+
+.Topfix #input:active{
+	border-style: none;
+}
+/*left fix set up*/
+.lFix{
+	left: 0;
+	width: 80px;
+	height: 100vh;
+	background: #060027;
+	text-align: center;
+}
+.lFix img{
+	width: 60px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+.lFix button{
+	background: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-color: #FFFFFF;
+}
+
+
+.lFix #profile{
+	margin-top: 10px;
+	visibility: hidden;
+}
+
+#profile{
+	border: none;
+}
+/*bottom half righte side setup */
+.bHalf{
+	display: flex;
+}
+.rhlaf{
+	width: 100%;
+}
+.content{
+	margin-top: 100px;
+	margin-left: 60px;
+}
+.content #title{
+    margin-left: 23px;
+    margin-bottom: 10px;
+    color: #424242;
+    text-decoration: underline;
+    
+}
+/*button set up*/
+.content button{
+ 	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 20px;
+	border: none;
+	color: #FFFFFF;
+	background: #7800D3;
+	
+}
+.content #Drawings{
+    background: #008E6C;
+}
+.content #Contracts{
+    background: #008E87;
+}
+.content #Manuals{
+    background: #006C8E;
+}
+.content #Construction{
+    background: #205B92;
+}
+.content #Submittals{
+    background: #36359B;
+}
+
+/*indiciual buttons setup*/
+.content #pr{
+	background:url("Images/Dropbox.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #ul{
+	background:url("Images/upload.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #sr{
+	background:url("Images/search.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+
+/*hover for button and */
+.content button:hover{
+    transition: 0.4s;
+	background-color:#2F2F2F;
+}
+
+/*Serach area set up*/
+
+.table select,input,label{
+	width: 200px;
+	font-size: 15px;
+	margin-right: 10px;
+	border-radius:5px;
+	text-indent: 10px;
+	
+}
+.table select,input{
+	padding: 2px;
+	border-color: #B3B3B3;
+	border-style: solid;
+}
+.table label{
+	padding-right: 30px;
+	font-size: 20px;
+}
+.table{
+	display: flex;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.sForm{
+	border: ridge;
+	width: 80%;
+	padding: 20px;
+}
+
+/*select feild setup*/
+
+

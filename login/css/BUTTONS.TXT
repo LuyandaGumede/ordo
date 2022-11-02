@@ -1,0 +1,21 @@
+/*indiciual buttons setup*/
+.content #pr{
+	background:url("Images/Dropbox.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #ul{
+	background:url("Images/upload.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #sr{
+	background:url("Images/search.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #ru{
+	background:url("Images/adduser.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #ac{
+	background:url("Images/clients.png") no-repeat 0.1px center;
+	background-size: 300px;
+}

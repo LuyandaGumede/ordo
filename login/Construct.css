@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*top set up*/
+.Topfix{
+	position: fixed;
+	width: 100%;
+	background: #BABABA;
+	display: flex;
+	justify-content:space-between;
+	height: 70px;
+	
+}
+.Topfix img{
+	height: 60px;
+	margin-left: 10px;
+	left: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+.Topfix a{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.Topfix #input{
+	height: 25px;
+	width: 260px;
+	text-indent: 20px;
+	border-radius: 325px;
+	border-style: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 30px;
+}
+
+.Topfix #input:active{
+	border-style: none;
+}
+/*left fix set up*/
+.lFix{
+	left: 0;
+	width: 80px;
+	height: 100vh;
+	background: #060027;
+	text-align: center;
+
+}
+
+
+.lFix img{
+	width: 60px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+.lFix button{
+	background: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-color: #FFFFFF;
+}
+
+
+.lFix #profile{
+	margin-top: 70px;
+	
+}
+
+#profile{
+	border: none;
+}
+/*bottom half righte side setup */
+.bHalf{
+	display: flex;
+}
+.rhlaf{
+	width: 100%;
+}
+.content{
+	margin-top: 100px;
+	margin-left: 60px;
+}
+/*button set up*/
+.content button{
+    color: #FFFFFF;
+	border-style: none;	
+	font-size: 40px;
+	text-align: center;
+	margin-right: 60px;
+	width: 300px;
+	height: 200px;
+}
+
+/*indiciual buttons setup*/
+.content #pr{
+	background:url("Images/ProjectB.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #ul{
+	background:url("Images/uploadB.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+.content #sr{
+	background:url("Images/searchB.png") no-repeat 0.1px center;
+	background-size: 300px;
+}
+
+/*hover for button and */
+.content button:hover{
+	opacity: 0.5;
+}
+/* content from tyler to be styled by justin -- */
+/* title set up -- */
+.panel-title{
+	font-size:40px;
+	 margin-bottom: 10px;
+    color: #424242;
+    text-decoration: underline;
+}
+/* body panel -- */
+/* setting the canvas for alll the diffrent pages */
+.content #canvasCon{
+	border-style:solid;
+	border-color:#205B92;
+	border-right:none;
+	border-bottom:none;
+	width: 600px;
+	padding:20px;
+	padding-top:20px;
+	padding-bottom:100px;
+	
+}
+.content #canvasTract{
+	border-style:solid;
+	border-color:#008E87;
+	border-right:none;
+	border-bottom:none;
+	width: 600px;
+	padding:20px;
+	padding-top:20px;
+	padding-bottom:100px;
+	
+}.content #canvasDraw{
+	border-style:solid;
+	border-color:#008E6C;
+	border-right:none;
+	border-bottom:none;
+	width: 600px;
+	padding:20px;
+	padding-top:20px;
+	padding-bottom:100px;
+	
+}
+.content #canvasPro{
+	border-style:solid;
+	border-color: #006C8E;
+	border-right:none;
+	border-bottom:none;
+	width: 600px;
+	padding:20px;
+	padding-top:20px;
+	padding-bottom:100px;
+	
+}
+.content #canvasSub{
+	border-style:solid;
+	border-color: #36359B;
+	border-right:none;
+	border-bottom:none;
+	width: 600px;
+	padding:20px;
+	padding-top:20px;
+	padding-bottom:100px;
+	
+}
+.panel-body{
+	padding-left:10px;
+}/* Form set up-- */
+.form-horizontal label{
+	font-size:20px;
+	 margin-bottom: 30px;
+    color: #424242;
+}
+
+.form-horizontal input{
+	font-size:15px;
+	width:100%;
+	 margin-bottom: 10px;
+    color: #424242;
+}
+
+.col-md-6 #label{
+	margin-right:40px;
+}
+.col-md-6 #button{
+	margin-top:10px;
+	height:40px;
+	background-color:#01E480;
+	color:#ffffff;
+	border:none;
+	font-size:20px;
+	border-radius:8px;
+	transition-duration: 0.2s
+
+}
+.col-md-6 #button:hover{
+
+	background-color: #00C43F;
+	
+
+}
+.col-md-6 #textarea{
+	width :400px;
+	margin-bottom:10px;
+}
+
+#canvasCon input{
+	font-size:15px;
+	width:400px;
+	 margin-bottom: 10px;
+    color: #424242;
+}
+ select{
+	font-size:15px;
+	width:400px;
+	 margin-bottom: 10px;
+    color: #424242;
+}
